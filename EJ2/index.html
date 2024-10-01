@@ -1,34 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="container-div">Add Item
-        <button class="small box">push</button>
-        <button class="small box">unshift</button>
-        <button class="small box">insert at</button>
+    <div class="container-div">Agregar Ítem
+        <button class="small box unshift">Agregar al principio</button>
+        <button class="small box push">Agregar al final</button>
+        <button class="small box insert">Insertar en</button>
         <div class="count">
-            <label for="counter"></label>
-            <input type="number" id="counter" value="0" min="0" style="width: 50px;">
+            <label for="insertIndex">Insertar en el índice:</label>
+            <input type="number" id="insertIndex" value="0" min="0" style="width: 50px;">
         </div>
     </div>
-    <div class="container-div">Remove Item
-        <button class="small box">pop</button>
-        <button class="small box">shift</button>
-        <button class="small box">remove at</button>
+
+    <div class="container-div">Eliminar Ítem
+        <button class="small box shift">Eliminar primero</button>
+        <button class="small box pop">Eliminar último</button>
+        <button class="small box remove">Eliminar en</button>
         <div class="count">
             <div>
-                <label for="counter"></label>
-                <input type id="counter" value="0" min="0" style="width: 50px;">
+                <label for="removeItemIndex">Eliminar en el índice:</label>
+                <input type="number" id="removeItemIndex" value="0" min="0" style="width: 50px;">
             </div>
-
-<script src="/EJ2/main.js"></script>
+        </div>
+    </div>
+    
+    <div class="resultado">RESULTADO = </div>
+    
+    <script src="javascript/typescript.js"></script>
 </body>
-
 </html>
