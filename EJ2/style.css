@@ -2,9 +2,11 @@ body {
     margin: 10px;
 }
 
+
 div {
     padding: 10px;
 }
+
 
 .container-div {
     display: flex;
@@ -17,9 +19,11 @@ div {
     /* Espaciado entre los elementos dentro del contenedor */
 }
 
+
 .small {
     border: solid 0.001cm black;
 }
+
 
 .box {
     background-color: rgb(199, 199, 199);
