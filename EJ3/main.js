@@ -10,7 +10,7 @@ $(document).ready(function() {
         $(paragrafo[0]).toggleClass("rojo");
     });
 
-    // Seleccionamos el botón con id "botonAzul" usando JavaScript puro
+    // Seleccionamos el botón con id "botonAzul" usando JavaScript
     const botonAzul = document.getElementById("botonAzul");
     
     // Cuando se hace clic en el botón "botonAzul"
