@@ -1,0 +1,269 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: 'Lobster', cursive;
+    /* Aplica la fuente a todo el cuerpo */
+    font-size: 16px;
+    /* Tamaño de fuente estándar */
+}
+
+.EAT {
+    background-color: rgba(0, 0, 255, 0.731);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.SUPERIOR {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+}
+
+.INFERIOR {
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    margin-top: 200px;
+}
+
+.rowright {
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    margin-top: 10px;
+}
+
+.rowleft {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+.LEFT {
+    justify-content: flex-start;
+}
+
+.RIGHT {
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.PLAY {
+    background-color: rgba(25, 255, 78, 0.731);
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.FIGHT {
+    background-color: rgba(255, 0, 0, 0.731);
+    width: 50vw;
+    height: 50vh;
+}
+
+.SLEEP {
+    background-color: rgba(231, 126, 255, 0.731);
+    width: 50vw;
+    height: 50vh;
+}
+
+.barra {
+    width: 40vw;
+    background: #040404;
+    /* Fondo oscuro */
+    border-radius: 10px;
+    height: 3vh;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    /* Estilo del borde */
+    border: 4px solid white;
+    /* Borde blanco */
+    background-clip: padding-box;
+    /* Asegura que el fondo no cubra el borde */
+
+}
+
+.barrasleep {
+    margin-left: 145px;
+}
+
+#vidacomida {
+    width: 80%;
+    background: #000000;
+    border-radius: 20px;
+    height: 3vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+#vidaplay {
+    width: 80%;
+    background: #000000;
+    border-radius: 20px;
+    height: 3vh;
+    margin-left: 145px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#vidafuerza {
+    width: 80%;
+    background: #000000;
+    border-radius: 20px;
+    height: 3vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#vidasleep {
+    width: 80%;
+    background: #000000;
+    border-radius: 20px;
+    height: 3vh;
+    margin-right: 5px;
+    margin-left: 145px;
+}
+
+#vidahappiness {
+    width: 80%;
+    background: #000000;
+    border-radius: 20px;
+    height: 3vh;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#numcomida {
+    margin-right: 5px;
+}
+
+#numplay {
+    margin-right: 5px;
+}
+
+#numfuerza {
+    margin-right: 5px;
+}
+
+#numsleep {
+    margin-right: 5px;
+}
+
+#numhappiness {
+    margin-left: 5px;
+}
+
+#EATTAG {
+    margin-top: 180px;
+    margin-left: 150px;
+    font-size: xx-large;
+    color: rgb(247, 247, 247);
+
+}
+
+#PLAYTAG {
+    margin-top: 180px;
+    margin-right: 150px;
+    font-size: xx-large;
+    color: rgb(247, 247, 247);
+}
+
+#FIGHTTAG {
+
+    margin-top: 80px;
+    margin-left: 100px;
+    font-size: xx-large;
+    color: rgb(247, 247, 247);
+}
+
+#SLEEPTAG {
+    margin-top: 80px;
+    margin-left: 500px;
+    font-size: xx-large;
+    color: rgb(247, 247, 247);
+}
+
+
+#TAMAGOCHITAG {
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.551);
+    border-radius: 100px;
+    padding: 10px;
+
+}
+
+.TAMAGOCHI {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 230px;
+    left: 32vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 37px;
+    background: #ffffff;
+    box-shadow: 12px 12px 23px #777777,
+        -12px -12px 23px #ffffff;
+
+    .imgochi {
+        width: 300px;
+    }
+
+    .barrahappiness {
+        margin-top: 10px;
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .HEARTS {
+        font-size: xx-large;
+        color: #b54c42;
+    }}
+
+    button {
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    color: #333; /* Color del texto */
+    border: 2px solid #ccc; /* Borde gris */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s, border-color 0.3s; /* Transición suave */
+    margin: 5px; /* Margen alrededor del botón */
+}
+
+button:hover {
+    background-color: #e0e0e0; /* Fondo más oscuro al pasar el mouse */
+    border-color: #bbb; /* Cambia el borde a un gris más oscuro */
+}
+
+button:active {
+    background-color: #d0d0d0; /* Fondo más oscuro al hacer clic */
+    border-color: #999; /* Borde más oscuro al hacer clic */
+}

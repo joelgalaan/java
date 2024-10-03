@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div style="display: flex; flex-direction: row;">
+        <div class="EAT">
+            <div class="SUPERIOR">
+                <div style="margin-right: 50px;">🍎</div>
+                <div style="margin-right: 50px;">🍏</div>
+                <div>🍎</div>
+                <button class="alimentar">Alimentar</button>
+            </div>
+            <meter id="vidacomida" min="0" max="100" value="100"></meter>
+            <div class="rowleft">
+                <div id="numcomida">100%</div>
+                <div>Full</div>
+            </div>
+            <div id="EATTAG">
+                EAT
+            </div>
+        </div>
+        <div class="PLAY">
+            <div class="SUPERIOR RIGHT">
+                <button class="jugar">Jugar</button>
+                <div style="margin-right: 50px;">🎮</div>
+                <div style="margin-right: 50px;">🥛</div>
+                <div>🎲</div>
+            </div>
+            <meter id="vidaplay" min="0" max="100" value="100"></meter>
+            <div class="rowright">
+                <div id="numplay" class="LEFT">100%</div>
+                <div>Fun</div>
+            </div>
+            <div id="PLAYTAG" class="RIGHT">
+                PLAY
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: row;">
+        <div class="FIGHT">
+            <div id="FIGHTTAG">
+                FIGHT
+            </div>
+            <div class="INFERIOR">
+                <div style="margin-right: 50px;">💪🏻</div>
+                <div style="margin-right: 50px;">🏃‍♂️</div>
+                <button class="entrenar">Entrenar</button>
+            </div>
+            <meter id="vidafuerza" min="0" max="100" value="100"></meter>
+            <div class="rowleft">
+                <div id="numfuerza">100%</div>
+                <div>Strength</div>
+            </div>
+        </div>
+        <div class="SLEEP">
+            <div id="SLEEPTAG">
+                SLEEP
+            </div>
+            <div class="INFERIOR RIGHT">
+                <button class="dormir">Dormir</button>
+                <div>😴</div>
+                <div style="margin-left: 50px;">🌝</div>
+            </div>
+
+            <meter id="vidasleep" min="0" max="100" value="100"></meter>
+
+            <div class="rowright">
+                <div id="numsleep">100%</div>
+                <div>Energy</div>
+            </div>
+        </div>
+        <div class="TAMAGOCHI">
+            <div id="TAMAGOCHITAG">
+                VACON
+            </div>
+            <div>
+                <img class="imgochi" src="/EJ7/imagenes/cowgif.gif" alt="200">
+            </div>
+            <div class="HEARTS" id="hearts">💗💗💗💗💗</div>
+            <div class="barrahappiness">
+                <meter id="vidahappiness" min="0" max="100" value="87"></meter>
+            </div>
+            <div class="row">
+                <div>Health</div>
+                <div id="numhappiness">87%</div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <button id="alimentar">Alimentar</button>
+        <button id="jugar">Jugar</button>
+        <button id="fuerza">Ganar Fuerza</button>
+        <button id="dormir">Dormir</button>
+    </div>
+    <script src="javascript/typescript.js"></script>
+</body>
+
+</html>
